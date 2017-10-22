@@ -1,0 +1,20 @@
+/*!
+Theme Name: LAV
+Author: Rafa Ortman
+Description: Tema do Laboratório de Análise da Violência
+Version: 0.0.1
+Tags: LAV
+*/
+@import 'normalize';
+@import 'master';
+@import 'slideshow';
+
+//estilo para contemplar a adminbar do wp
+.customize-support {
+    nav{
+       margin-top: 32px; 
+       @media(max-width: 780px){
+            margin-top: 46px;
+       }
+    }
+}
